@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Player</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #video-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4f4;
+      }
+      video {
+        max-width: 800px;
+        max-height: 600px;
+        width: 90%;
+        height: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="video-container">
+      <video controls>
+        <source src="G:\Tasks Watch 65 (2023).mp4" type="video/mp4" />
+        <!-- Add additional <source> elements for different video formats -->
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
